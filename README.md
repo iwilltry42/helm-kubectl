@@ -9,6 +9,7 @@
 
 Supported tags and release links
 
+* [2.13.0](https://github.com/iwilltry42/helm-kubectl/releases/tag/2.13.0) - helm v2.14.0, kubectl v1.13.3, alpine 3.9
 * [2.13.0](https://github.com/iwilltry42/helm-kubectl/releases/tag/2.13.0) - helm v2.13.0, kubectl v1.13.3, alpine 3.9
 * [2.12.3](https://github.com/dtzar/helm-kubectl/releases/tag/2.12.3) - helm v2.12.3, kubectl v1.13.2, alpine 3.8
 * [2.12.2](https://github.com/dtzar/helm-kubectl/releases/tag/2.12.2) - helm v2.12.2, kubectl v1.13.2, alpine 3.8
@@ -53,7 +54,3 @@ The -v maps your host docker machine Kubernetes configuration directory (~/.kube
 
 For doing a manual local build of the image:  
 `make docker_build`
-
-This image is now fully automated via travisci.org.  
-For reference this .travis.yml file can be validated via:  
-`docker run --rm -it -v yourclonedreporoot:/project caktux/travis-cli lint ./travis.yml`
